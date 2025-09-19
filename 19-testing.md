@@ -107,7 +107,8 @@ RSpec.describe "RSpec Matchers" do
   it "checks equality" do
     expect(2 + 2).to eq(4)         # ==
     expect(2 + 2).to eql(4)        # eql?
-    expect("hello").to equal("hello".freeze)  # same object_id
+    str = "hello"
+    expect(str).to equal(str)      # same object_id
   end
   
   # Comparison

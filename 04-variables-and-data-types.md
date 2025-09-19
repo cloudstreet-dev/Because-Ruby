@@ -131,7 +131,9 @@ text.gsub("world", "Ruby")  # "hello Ruby"
 
 # String concatenation
 greeting = "Hello" + " " + "World"  # "Hello World"
-greeting = "Hello" " " "World"      # "Hello World" (Ruby auto-concatenates)
+greeting = "Hello" \
+          " " \
+          "World"                    # "Hello World" (Ruby auto-concatenates adjacent literals)
 greeting = "Hello" << " " << "World" # "Hello World" (more efficient)
 
 # Multiline strings
@@ -408,7 +410,7 @@ lucky_number = 7
 puts "\nYour lucky number is #{lucky_number}"
 puts "Is it even? #{lucky_number.even?}"
 puts "Is it odd? #{lucky_number.odd?}"
-puts "Next prime after #{lucky_number}: #{lucky_number.next}"
+puts "Next number: #{lucky_number.next}"
 
 # The truth about Ruby's truthiness
 things_to_test = [true, false, nil, 0, "", [], {}]

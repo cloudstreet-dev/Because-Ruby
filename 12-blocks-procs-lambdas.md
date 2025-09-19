@@ -479,9 +479,9 @@ module FunctionalHelpers
   # Debounce function calls
   def debounce(fn, delay)
     timer = nil
-    
+
     ->(*args) do
-      timer&.kill
+      timer&.exit
       timer = Thread.new do
         sleep delay
         fn.call(*args)
@@ -521,15 +521,20 @@ puts fast.call(6)  # Computing for 6... (new value)
 
 ### The Builder Pattern
 ```ruby
+class DatabaseConfig
+  attr_accessor :name, :pool
+end
+
 class Configuration
   attr_accessor :host, :port, :timeout
-  
+  attr_reader :db_config
+
   def self.build(&block)
     config = new
     config.instance_eval(&block)
     config
   end
-  
+
   def database(&block)
     @db_config = DatabaseConfig.new
     @db_config.instance_eval(&block)
@@ -540,7 +545,7 @@ config = Configuration.build do
   self.host = "localhost"
   self.port = 3000
   self.timeout = 30
-  
+
   database do
     self.name = "myapp"
     self.pool = 5

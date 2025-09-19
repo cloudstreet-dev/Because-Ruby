@@ -8,23 +8,23 @@
 3. **Setting Up Your Ruby Playground** - Getting Ruby on your machine without breaking anything (probably)
 
 ### Part II: Ruby Fundamentals (But Fun)
-4. **Variables and the Art of Naming Things** - How to store stuff and why `x` is a terrible name for everything
-5. **Strings, Numbers, and Other Data You'll Actually Use** - Making Ruby remember things so you don't have to
-6. **Control Flow: Teaching Ruby to Make Decisions** - Because sometimes you need your code to be smarter than a goldfish
-7. **Methods: Teaching Ruby New Tricks** - How to avoid writing the same code 47 times
-8. **Arrays and Hashes: Ruby's Junk Drawers** - Organizing data like Marie Kondo, but for code
+4. **Variables and Data Types** - How to store stuff and why `x` is a terrible name for everything
+5. **Control Flow: Teaching Ruby to Make Decisions** - Because sometimes you need your code to be smarter than a goldfish
+6. **Methods: Teaching Ruby New Tricks** - How to avoid writing the same code 47 times
+7. **Arrays and Hashes: Ruby's Junk Drawers** - Organizing data like Marie Kondo, but for code
 
 ### Part III: Objects All the Way Down
-9. **Everything Is an Object (No, Really, Everything)** - Ruby's worldview and why it matters
-10. **Classes: Building Your Own Objects** - Playing deity in your own little digital universe
-11. **Modules: Ruby's Mix-and-Match System** - Like LEGO, but for behavior
-12. **Inheritance: It's a Family Thing** - How objects can have parents (and therapy isn't required)
+8. **Everything Is an Object (No, Really, Everything)** - Ruby's worldview and why it matters
+9. **Classes: Building Your Own Objects** - Playing deity in your own little digital universe
+10. **Modules: Ruby's Mix-and-Match System** - Like LEGO, but for behavior
+11. **Inheritance: It's a Family Thing** - How objects can have parents (and therapy isn't required)
 
 ### Part IV: Ruby Gets Fancy
-13. **Blocks, Procs, and Lambdas: Ruby's Secret Weapons** - The features that make other languages jealous
-14. **Enumerable: Your New Superpower** - Making collections bend to your will with elegance
-15. **Regular Expressions: Pattern Matching Without the Headache** - Finding needles in haystacks, Ruby style
-16. **Error Handling: When Things Go Wrong (And They Will)** - Gracefully failing since 1995
+12. **Blocks, Procs, and Lambdas: Ruby's Secret Weapons** - The features that make other languages jealous
+13. **Enumerable: Your New Superpower** - Making collections bend to your will with elegance
+14. **Regular Expressions: Pattern Matching Without the Headache** - Finding needles in haystacks, Ruby style
+15. **Error Handling: When Things Go Wrong (And They Will)** - Gracefully failing since 1995
+16. **Ruby Gets Fancy: Metaprogramming and Advanced Features** - When regular programming isn't meta enough
 
 ### Part V: Ruby in the Real World
 17. **Working with Files: Reading, Writing, and Not Losing Data** - Because databases are overkill for your grocery list
